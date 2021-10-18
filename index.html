@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <button onclick="Alert.render('Are you sure you want to continue?')">Click me</button>
+
+    <p id="modal_result" ></p>
+    
+
+<div id="popUpOverlay"></div>
+<div id="popUpBox">
+    <div id="box">
+        <p id="modal_text"> Modal text</p>
+        <div id="closeModal">
+            <button class="buttonAccept" onclick="Alert.accept()" >Yes</button><button class="buttonCancel" onclick="Alert.cancel()">Cancel</button>
+        </div>
+
+    </div>
+    
+</div>
+</body>
+
+</html>
